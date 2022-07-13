@@ -30,3 +30,7 @@
   --fs-bodyMD: 16px;
   --fs-bodySM: 14px;
 }
+.BrandLogo,
+.badge-item .item {
+  height: 35px;
+}
