@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 :root {
   --primary-50: #f5f3ff;
   --primary-100: #ede9fe;
@@ -30,6 +31,52 @@
   --fs-bodyMD: 16px;
   --fs-bodySM: 14px;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+/* Typography - fontWeight  */
+.fw-light {
+  font-weight: 400;
+}
+.fw-normal {
+  font-weight: 500;
+}
+/* Typography - fontSize/lineHeight/letterSpacing  */
+.display-xl {
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.025em;
+}
+.display-lg {
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -0.025em;
+}
+.display-md {
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -0.025em;
+}
+.display-sm {
+  font-size: 30px;
+  line-height: 40px;
+}
+.body-lg {
+  font-size: 18px;
+  line-height: 28px;
+}
+.body-md {
+  font-size: 16px;
+  line-height: 24px;
+}
+.body-sm {
+  font-size: 14px;
+  line-height: 20px;
+}
+
 .BrandLogo,
 .badge-item .item {
   height: 35px;
