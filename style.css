@@ -82,3 +82,23 @@
 .badge-item .item {
   height: 35px;
 }
+/* Herosectin */
+#Herosection .text-wrapper {
+  padding-top: 40px;
+}
+.mockup-img img {
+  max-height: 560px;
+}
+@media (min-width: 786px) {
+  #Herosection .text-wrapper {
+    padding-top: 64px;
+  }
+  .mockup-img img {
+    max-height: 640px;
+  }
+}
+@media (min-width: 992px) {
+  #Herosection .text-wrapper {
+    padding-top: 80px;
+  }
+}
