@@ -102,3 +102,7 @@
     padding-top: 80px;
   }
 }
+
+.ClientLogo img {
+  max-height: 26px;
+}
