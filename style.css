@@ -50,7 +50,7 @@
   line-height: 72px;
   letter-spacing: -0.025em;
 }
-.display-lg {
+#Features .container-header h1 {
   font-size: 48px;
   line-height: 60px;
   letter-spacing: -0.025em;
@@ -60,11 +60,11 @@
   line-height: 45px;
   letter-spacing: -0.025em;
 }
-.display-sm {
+#Features .container-body .text .title {
   font-size: 30px;
   line-height: 40px;
 }
-.body-lg {
+#Features .container-header p {
   font-size: 18px;
   line-height: 28px;
 }
@@ -105,4 +105,12 @@
 
 .ClientLogo img {
   max-height: 26px;
+}
+#Features .container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#Features .container-header h1,
+#Features .container-header p {
+  max-width: 800px;
 }
