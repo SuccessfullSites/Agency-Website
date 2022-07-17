@@ -6,10 +6,10 @@ function Herosection() {
   <div class="row row-cols-2 gx-5 gy-5">
           <div class="text-wrapper col-12 col-lg-7">
             <div class="text-body">
-              <h1 class="display-xl fw-bold">
+              <h1 class=" fw-bold">
                 The easiest way to manage projects
               </h1>
-              <p class="body-lg mt-3">
+              <p class="mt-3">
                 From the small stuff to the big picture, organizes the work so
                 teams know what to do, why it matters, and how to get it done.
               </p>

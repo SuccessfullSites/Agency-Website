@@ -6,7 +6,7 @@ function Features() {
   <div
   class="container-header text-center d-flex flex-column align-items-center"
 >
-  <h1 class="fw-bold">Tailor-made features</h1>
+  <h1 class="title fw-bold">Tailor-made features</h1>
   <p class="">
     Lorem ipsum is common placeholder text used to demonstrate the
     graphic elements of a document or visual presentation.

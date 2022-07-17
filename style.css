@@ -45,17 +45,17 @@
   font-weight: 500;
 }
 /* Typography - fontSize/lineHeight/letterSpacing  */
-.display-xl {
+.text-body h1 {
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.025em;
 }
-#Features .container-header h1 {
+.container-header .title {
   font-size: 48px;
   line-height: 60px;
   letter-spacing: -0.025em;
 }
-.display-md {
+.content-item .title {
   font-size: 36px;
   line-height: 45px;
   letter-spacing: -0.025em;
@@ -64,11 +64,12 @@
   font-size: 30px;
   line-height: 40px;
 }
-#Features .container-header p {
+.container-header p,
+.text-body p {
   font-size: 18px;
   line-height: 28px;
 }
-.body-md {
+.content-item .description {
   font-size: 16px;
   line-height: 24px;
 }
@@ -106,7 +107,8 @@
 .ClientLogo img {
   max-height: 26px;
 }
-#Features .container {
+#Features .container,
+.section .container {
   padding-top: 80px;
   padding-bottom: 80px;
 }
