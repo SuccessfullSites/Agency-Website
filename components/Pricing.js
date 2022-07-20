@@ -12,8 +12,8 @@ function Pricing() {
         </div>
         <div class="row mt-5">
           <!-- Pricing Table -->
-          <div class="pricing-table col-lg-4 col-md-6 col-sm-12">
-            <div class="inner-box">
+          <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box overflow-hidden position-relative">
               <div class="title">Basic</div>
               <div class="price">
                 $199 <span class="duration">/ monthly</span>
@@ -45,8 +45,8 @@ function Pricing() {
             </div>
           </div>
           <!-- Pricing Table -->
-          <div class="pricing-table tagged col-lg-4 col-md-6 col-sm-12">
-            <div class="inner-box">
+          <div class="pricing-table position-relative tagged col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box overflow-hidden position-relative">
               <span class="tag">Recommended</span>
               <div class="title">Standard</div>
               <div class="price">
@@ -79,8 +79,8 @@ function Pricing() {
             </div>
           </div>
           <!-- Pricing Table -->
-          <div class="pricing-table col-lg-4 col-md-6 col-sm-12">
-            <div class="inner-box">
+          <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box overflow-hidden position-relative">
               <div class="title">Extended</div>
               <div class="price">
                 $799 <span class="duration">/ monthly</span>
