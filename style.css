@@ -111,7 +111,8 @@
 #Features .container,
 #Pricing .container,
 .section .container,
-#FAQ {
+#FAQ,
+.testimonial-section {
   padding-top: 80px;
   padding-bottom: 80px;
 }
