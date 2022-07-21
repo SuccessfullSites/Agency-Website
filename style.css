@@ -50,7 +50,8 @@
   line-height: 72px;
   letter-spacing: -0.025em;
 }
-.container-header .title {
+.container-header .title,
+.sec-title .title {
   font-size: 48px;
   line-height: 60px;
   letter-spacing: -0.025em;
@@ -109,7 +110,8 @@
 }
 #Features .container,
 #Pricing .container,
-.section .container {
+.section .container,
+#FAQ {
   padding-top: 80px;
   padding-bottom: 80px;
 }
