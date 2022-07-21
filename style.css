@@ -297,3 +297,13 @@ a {
   top: -60px;
   left: -48px;
 }
+#Footer {
+  background-color: black;
+}
+#Footer a {
+  color: white;
+  padding-left: 0px;
+}
+#Footer a:hover {
+  color: wheat;
+}
