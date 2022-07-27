@@ -6,11 +6,11 @@ function Testimonial() {
   <div
           class="testimonial-items row row-cols-1 row-cols-lg-2 gx-5 align-items-center position-relative"
         >
-          <div class="container-header position-absolute">
+          <div class="text-body position-absolute">
             <div class="quote-mark position-absolute">
               <img src="./Images/Quote mark.png" alt="" srcset="" />
             </div>
-            <h1 class="title fw-bold">Real Stories from Real Customers</h1>
+            <h2 class="title fw-bold">Real Stories from Real Customers</h1>
             <p>Get inspired by these stories.</p>
           </div>
           <div class="col">

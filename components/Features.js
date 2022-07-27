@@ -4,9 +4,9 @@ function Features() {
   Container.classList.add("container");
   Container.innerHTML = `
   <div
-  class="container-header text-center d-flex flex-column align-items-center"
+  class="text-body text-center d-flex flex-column align-items-center"
 >
-  <h1 class="title fw-bold">Tailor-made features</h1>
+  <h2 class="title fw-bold">Tailor-made features</h2>
   <p class="">
     Lorem ipsum is common placeholder text used to demonstrate the
     graphic elements of a document or visual presentation.

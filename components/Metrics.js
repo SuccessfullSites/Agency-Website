@@ -4,8 +4,8 @@ function Metrics() {
   Container.classList.add("container");
   Container.innerHTML = `
     <div class="row row-cols-1 row-cols-lg-2 gy-5 gx-5">
-          <div class="container-header col">
-            <div class="title fw-bold">Our 18 years of achievements</div>
+          <div class="text-body col">
+            <h2 class="fw-bold">Our 18 years of achievements</h2>
             <p class="Description mt-2">
               With our super powers we have reached this
             </p>

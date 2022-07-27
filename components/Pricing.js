@@ -3,8 +3,8 @@ function Pricing() {
   const Container = document.createElement("div");
   Container.classList.add("container");
   Container.innerHTML = `
-  <div class="container-header d-flex flex-column align-items-center">
-          <h1 class="text-center fw-bold">Pricing Packages</h1>
+  <div class="text-body d-flex flex-column align-items-center">
+          <h2 class="text-center fw-bold">Pricing Packages</h2>
           <p class="text-center">
             Connect Landify with your favourite tools that you use daily and
             keep things on track.

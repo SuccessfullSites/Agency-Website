@@ -48,44 +48,64 @@ body {
   font-weight: 500;
 }
 /* Typography - fontSize/lineHeight/letterSpacing  */
-.text-body h1 {
+#Herosection h1,
+h1 {
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.025em;
 }
-.container-header .title,
-.sec-title .title {
+.text-body h2,
+h2 {
   font-size: 48px;
   line-height: 60px;
   letter-spacing: -0.025em;
 }
-.content-item .title {
+#Metric .content-item .title {
   font-size: 36px;
   line-height: 45px;
   letter-spacing: -0.025em;
 }
-#Features .container-body .text .title {
+#Features .container-body .text .title,
+#Pricing .inner-box .price {
   font-size: 30px;
   line-height: 40px;
 }
-.container-header p,
-.text-body p {
+#Testimonial .personal-detail .per-name,
+#FAQ .accordion-item h2 button,
+.text-body p,
+.badges p {
   font-size: 18px;
   line-height: 28px;
+  font-weight: 400;
 }
-.content-item .description {
+#Metric .content-item .Description,
+#Features .container-body .text .description,
+#Pricing .inner-box .title,
+#Pricing .inner-box .price span.duration,
+#Pricing .inner-box .table-content ul li,
+#Pricing .pricing-table .table-footer a {
   font-size: 16px;
   line-height: 24px;
 }
+#Testimonial .personal-detail .per-role,
+#FAQ .accordion-item .accordion-body,
+.pricing-table .tag,
 .nav-item a {
   font-size: 14px;
   line-height: 20px;
+}
+.nav-item a {
   font-weight: 600;
 }
-
 .BrandLogo,
 .badge-item .item {
   height: 35px;
+}
+#Navbar {
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
 }
 /* Herosectin */
 #Herosection .text-wrapper {
@@ -149,8 +169,6 @@ body {
   top: 30px;
   overflow: hidden;
   border-radius: 30px;
-  font-size: 13px;
-  line-height: 20px;
   color: #34a853;
   padding: 5px 25px;
 }
@@ -170,8 +188,6 @@ body {
 .pricing-table .title {
   display: block;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
   color: #1967d2;
   margin-bottom: 10px;
 }
@@ -181,8 +197,6 @@ body {
   position: relative;
   display: flex;
   align-items: flex-end;
-  font-size: 30px;
-  line-height: 41px;
   color: #202124;
   font-weight: 500;
   margin-bottom: 50px;
@@ -210,8 +224,6 @@ body {
 
 .pricing-table .table-content ul li {
   position: relative;
-  font-size: 14px;
-  line-height: 25px;
   color: #696969;
   font-weight: 400;
   margin-bottom: 20px;
@@ -232,6 +244,7 @@ body {
   position: relative;
   display: block;
   width: 100%;
+  font-weight: 500;
 }
 .pricing-table .table-footer a {
   position: relative;
@@ -287,12 +300,12 @@ a {
 #Testimonial .testimonial-items .item-1 {
   margin-top: 120px;
 }
-#Testimonial .container-header {
+#Testimonial .text-body {
   top: -80px;
   left: 0;
   z-index: 4;
 }
-#Testimonial .container-header .quote-mark {
+#Testimonial .text-body .quote-mark {
   z-index: -1;
   top: -60px;
   left: -48px;

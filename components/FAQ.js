@@ -3,8 +3,8 @@ function FAQ() {
   const Container = document.createElement("div");
   Container.classList.add("container");
   Container.innerHTML = `
-  <div class="container-header">
-        <h1 class='title fw-bold'>Frequently Asked Questions</h1>
+  <div class="text-body">
+        <h2 class='title fw-bold'>Frequently Asked Questions</h2>
         <p>These are the questions we hear more often.</p>
       </div>
   <div class="accordion mt-5" id="accordionExample">

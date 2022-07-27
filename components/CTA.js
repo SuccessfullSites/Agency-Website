@@ -4,10 +4,10 @@ function CTA() {
   Container.classList.add("container");
   Container.innerHTML = `
   <div class="row row-cols-1 row-cols-lg-2 gx-5">
-  <div class="container-header col py-5">
-    <div class="title fw-bold">
+  <div class="text-body col py-5">
+    <h2 class="title fw-bold">
       Manage all projects from your mobile
-    </div>
+    </h2>
     <p>
       Download the app to manage your projects, keep track of the
       progress and complete tasks without procastinating. Stay on track

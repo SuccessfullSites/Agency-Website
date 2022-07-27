@@ -31,8 +31,8 @@ function LogoCloud() {
   `;
   Container2.innerHTML = `
   <div class="row row-cols-1 row-cols-md-2 gy-5 gx-5">
-          <div class="container-header col">
-            <div class="title fw-bold">Easy integrations with 170+ tools</div>
+          <div class="text-body col">
+            <h2 class="title fw-bold">Easy integrations with 170+ tools</h2>
             <p class="Description mt-2">
               Connect Landify with your favourite tools that you use daily and
               keep things on track.
