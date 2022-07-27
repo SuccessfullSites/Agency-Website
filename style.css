@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
 :root {
   --primary-50: #f5f3ff;
   --primary-100: #ede9fe;
@@ -30,12 +36,38 @@
   --fs-bodyLG: 18px;
   --fs-bodyMD: 16px;
   --fs-bodySM: 14px;
+  --lh-displayXL: 72px;
+  --lh-displayLG: 60px;
+  --lh-displayMD: 45px;
+  --lh-displaySM: 40px;
+  --lh-bodyLG: 28px;
+  --lh-bodyMD: 24px;
+  --lh-bodySM: 20px;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+@media (max-width: 992px) {
+  :root {
+    /* font style  */
+    --fs-displayXL: 48px;
+    --fs-displayLG: 36px;
+    --fs-displayMD: 30px;
+    --fs-displaySM: 24px;
+    --lh-displayXL: 60px;
+    --lh-displayLG: 45px;
+    --lh-displayMD: 40px;
+    --lh-displaySM: 32px;
+  }
+}
+@media (max-width: 576px) {
+  :root {
+    --fs-displayXL: 36px;
+    --fs-displayLG: 30px;
+    --fs-bodyLG: 16px;
+    --fs-bodyMD: 14px;
+    --lh-displayXL: 60px;
+    --lh-displayLG: 40px;
+    --lh-bodyLG: 24px;
+    -lh-bodymd: 20px;
+  }
 }
 body {
   overflow-x: hidden;
@@ -50,32 +82,32 @@ body {
 /* Typography - fontSize/lineHeight/letterSpacing  */
 #Herosection h1,
 h1 {
-  font-size: 60px;
-  line-height: 72px;
+  font-size: var(--fs-displayXL);
+  line-height: var(--lh-displayXL);
   letter-spacing: -0.025em;
 }
 .text-body h2,
 h2 {
-  font-size: 48px;
-  line-height: 60px;
+  font-size: var(--fs-displayLG);
+  line-height: var(--lh-displayLG);
   letter-spacing: -0.025em;
 }
 #Metric .content-item .title {
-  font-size: 36px;
-  line-height: 45px;
+  font-size: var(--fs-displayMD);
+  line-height: var(--lh-displayMD);
   letter-spacing: -0.025em;
 }
 #Features .container-body .text .title,
 #Pricing .inner-box .price {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: var(--fs-displaySM);
+  line-height: var(--lh-displaySM);
 }
 #Testimonial .personal-detail .per-name,
 #FAQ .accordion-item h2 button,
 .text-body p,
 .badges p {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: var(--fs-bodyLG);
+  line-height: var(--lh-bodyLG);
   font-weight: 400;
 }
 #Metric .content-item .Description,
@@ -84,15 +116,15 @@ h2 {
 #Pricing .inner-box .price span.duration,
 #Pricing .inner-box .table-content ul li,
 #Pricing .pricing-table .table-footer a {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: var(--fs-bodyMD);
+  line-height: var(--lh-bodyMD);
 }
 #Testimonial .personal-detail .per-role,
 #FAQ .accordion-item .accordion-body,
 .pricing-table .tag,
 .nav-item a {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: var(--fs-bodySM);
+  line-height: var(--lh-bodySM);
 }
 .nav-item a {
   font-weight: 600;
