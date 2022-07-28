@@ -23,15 +23,15 @@ function Footer() {
               </ul>
               <ul class="nav justify-content-left row-2">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#Metric"
                     >About</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#Features">Features</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="#Pricing">Pricing</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">News</a>
@@ -42,7 +42,7 @@ function Footer() {
               </ul>
             </div>
             <div class="copyrights mt-4">
-              © 2021 <a class='text-decoration-underline' href="#">SuccessfullSite</a> Theme. All rights reserved
+              © 2021 <a class='text-decoration-underline' href="https://github.com/SuccessfullSites">SuccessfullSite</a> Theme. All rights reserved
             </div>
           </div>
           <div class="col-12 col-md-2 badges">

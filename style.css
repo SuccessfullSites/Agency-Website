@@ -468,6 +468,7 @@ h2 {
 #Footer a {
   color: white;
   padding-left: 0px;
+  font-weight: 500;
 }
 #Footer a:hover {
   color: wheat;
