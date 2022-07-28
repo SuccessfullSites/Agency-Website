@@ -40,14 +40,14 @@ function Pricing() {
                 </ul>
               </div>
               <div class="table-footer">
-                <a href="#" class="theme-btn btn-style-three">View Profile</a>
+                <a href="#" class="button btn-theme-1">View Profile</a>
               </div>
             </div>
           </div>
           <!-- Pricing Table -->
           <div class="pricing-table position-relative tagged col-lg-4 col-md-6 col-sm-12">
             <div class="inner-box overflow-hidden position-relative">
-              <span class="tag">Recommended</span>
+              <span class="tag bg-primary-300">Recommended</span>
               <div class="title">Standard</div>
               <div class="price">
                 $499 <span class="duration">/ monthly</span>
@@ -74,7 +74,7 @@ function Pricing() {
                 </ul>
               </div>
               <div class="table-footer">
-                <a href="#" class="theme-btn btn-style-three">View Profile</a>
+                <a href="#" class="button btn-theme-1">View Profile</a>
               </div>
             </div>
           </div>
@@ -107,7 +107,7 @@ function Pricing() {
                 </ul>
               </div>
               <div class="table-footer">
-                <a href="#" class="theme-btn btn-style-three">View Profile</a>
+                <a href="#" class="button btn-theme-1">View Profile</a>
               </div>
             </div>
           </div>

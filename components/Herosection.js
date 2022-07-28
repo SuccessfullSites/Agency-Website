@@ -15,9 +15,9 @@ function Herosection() {
               </p>
             </div>
             <div class="btns-group mt-3">
-              <a class="btn btn-primary" href="#">Get Started</a>
-              <a class="btn" href="#"
-                ><i class="bi bi-play-circle"></i> Watch Video</a
+              <a class="button btn-theme-default" href="#">Get Started</a>
+              <a class="button btn-theme-2" href="#"
+                ><i class="bi bi-play-circle me-2"></i> Watch Video</a
               >
             </div>
           </div>
@@ -27,7 +27,7 @@ function Herosection() {
             <img class="" src="./Images/mockup-mobile1.png" alt="" id="" />
           </div>
         </div>
-        <div class="Herosection-bg"></div>
+        
   `;
   Herosection.appendChild(Container);
 }

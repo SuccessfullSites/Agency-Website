@@ -63,7 +63,7 @@
     --fs-displayLG: 30px;
     --fs-bodyLG: 16px;
     --fs-bodyMD: 14px;
-    --lh-displayXL: 60px;
+    --lh-displayXL: 45px;
     --lh-displayLG: 40px;
     --lh-bodyLG: 24px;
     -lh-bodymd: 20px;
@@ -243,7 +243,12 @@ h2 {
   right: 0;
   left: 0;
   z-index: 20;
-  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+}
+.nav-scrolled {
+  /* box-shadow: 0px 1px 10px #999; */
+  box-shadow: 0px 4px 8px -2px rgba(17, 24, 39, 0.1),
+    0px 2px 4px -2px rgba(17, 24, 39, 0.06);
+  /* box-shadow: 0px 4px 24px -2px rgba(17, 24, 39, 0.18); */
 }
 /* Herosectin */
 #Herosection .text-wrapper {
@@ -264,6 +269,48 @@ h2 {
   #Herosection .text-wrapper {
     padding-top: 80px;
   }
+}
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.hero-bg .bg {
+  backdrop-filter: blur(100px);
+}
+.hero-bg .purple-circle {
+  position: absolute;
+  width: 406px;
+  height: 406px;
+  right: -107px;
+  top: -37px;
+  z-index: -1;
+}
+.band {
+  position: absolute;
+  z-index: 1;
+}
+.hero-bg .left-band1 {
+  left: 0px;
+  top: 635.5px;
+}
+.hero-bg .left-band2 {
+  left: -152px;
+  top: 738.49px;
+}
+.hero-bg .right-band1 {
+  right: 32px;
+  top: 491px;
+}
+.hero-bg .right-band2 {
+  right: 0px;
+  top: 550px;
+}
+.hero-bg .right-band3 {
+  right: -24px;
+  top: 580.49px;
 }
 /* Logo Cloud */
 .ClientLogo img {
@@ -369,6 +416,8 @@ h2 {
 #Testimonial .testimonial-item {
   height: fit-content;
   padding: 32px 24px;
+  box-shadow: 0px 4px 8px -2px rgba(17, 24, 39, 0.1),
+    0px 2px 4px -2px rgba(17, 24, 39, 0.06);
 }
 #Testimonial h1,
 #Testimonial p {

@@ -1,5 +1,5 @@
+const navbar = document.getElementById("Navbar");
 function Navbar() {
-  const Navbar = document.getElementById("Navbar");
   const Container = document.createElement("div");
   Container.classList.add("container");
   Container.innerHTML = `
@@ -109,6 +109,22 @@ function Navbar() {
   </div>
 </div>
     `;
-  Navbar.appendChild(Container);
+  navbar.appendChild(Container);
 }
 Navbar();
+window.onscroll = function () {
+  "use strict";
+  console.log("ecntere");
+  if (
+    document.body.scrollTop >= 10 ||
+    document.documentElement.scrollTop >= 10
+  ) {
+    console.log("scrolled");
+    navbar.classList.add("bg-white", "nav-scrolled");
+    navbar.classList.remove("bg-transparent");
+  } else {
+    console.log("not scrolled");
+    navbar.classList.add("bg-transparent");
+    navbar.classList.remove("bg-white", "nav-scrolled");
+  }
+};

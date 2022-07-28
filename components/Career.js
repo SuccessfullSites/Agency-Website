@@ -11,7 +11,7 @@ function Career() {
         Community and stay up-to-date on company and careers updates
         relevant to your career.
       </p>
-      <a class="btn btn-primary mt-3" href="#"> Join Now </a>
+      <a class="button btn-theme-default mt-3" href="#"> Join Now </a>
     </div>
     <div class="col container-body">
       <img
