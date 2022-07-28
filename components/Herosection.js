@@ -1,7 +1,9 @@
 function Herosection() {
   const Herosection = document.getElementById("Herosection");
   const Container = document.createElement("div");
+  const BG = document.createElement("div");
   Container.classList.add("container");
+  BG.classList.add("hero-bg");
   Container.innerHTML = `
   <div class="row row-cols-2 gx-5 gy-5">
           <div class="text-wrapper col-12 col-lg-7">
@@ -29,6 +31,16 @@ function Herosection() {
         </div>
         
   `;
+  BG.innerHTML = `
+        <img class="band left-band1" src="./Images/Left Band 1.svg"></img>
+        <img class="band left-band2" src="./Images/Left Band 2.svg"></img>
+        <img class="band right-band1" src="./Images/Right Band 1.svg"></img>
+        <img class="band right-band2" src="./Images/Right Band 2.svg"></img>
+        <img class="band right-band3" src="./Images/Right Band 3.svg"></img>
+        <img class="bg" src="./Images/hero-bg.svg" alt="" srcset="" />
+        <img class="purple-circle" src="./Images/Purple Circle.svg"></img>
+  `;
   Herosection.appendChild(Container);
+  Herosection.appendChild(BG);
 }
 Herosection();
