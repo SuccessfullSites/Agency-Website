@@ -463,13 +463,26 @@ h2 {
 }
 /* footer */
 #Footer {
-  background-color: black;
+  background-color: var(--black);
 }
 #Footer a {
-  color: white;
+  color: var(--white);
   padding-left: 0px;
   font-weight: 500;
 }
 #Footer a:hover {
-  color: wheat;
+  color: var(--secondary-300);
+}
+/* Arrow back to top  */
+.arrow-back-to {
+  font-size: 1.2rem;
+  position: fixed;
+  width: 42px;
+  height: 42px;
+  right: 40px;
+  top: 608px;
+  mix-blend-mode: normal;
+  filter: drop-shadow(0px 4px 4px rgba(19, 56, 77, 0.03));
+  cursor: pointer;
+  transition: all 0.5s ease;
 }

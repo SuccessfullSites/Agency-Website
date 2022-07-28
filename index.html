@@ -39,6 +39,13 @@
     <div id="FAQ" class=""></div>
     <div id="CTA" class="bg-secondary-600"></div>
     <div id="Footer" class="text-white py-5"></div>
+    <a
+      href="#"
+      id="ArrowToTop"
+      class="arrow-back-to rounded-circle d-none align-items-center justify-content-center btn-theme-default"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </a>
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -57,5 +64,32 @@
     <script src="./components/Pricing.js"></script>
     <script src="./components/FAQ.js"></script>
     <script src="./components/Footer.js"></script>
+    <script>
+      const navbar = document.getElementById("Navbar");
+      const ArrowToTop = document.getElementById("ArrowToTop");
+      window.onscroll = function () {
+        "use strict";
+        if (
+          document.body.scrollTop >= 800 ||
+          document.documentElement.scrollTop >= 800
+        ) {
+          ArrowToTop.classList.add("d-flex");
+          ArrowToTop.classList.remove("d-none");
+        } else {
+          ArrowToTop.classList.add("d-none");
+          ArrowToTop.classList.remove("d-flex");
+        }
+        if (
+          document.body.scrollTop >= 10 ||
+          document.documentElement.scrollTop >= 10
+        ) {
+          navbar.classList.add("bg-white", "nav-scrolled");
+          navbar.classList.remove("bg-transparent");
+        } else {
+          navbar.classList.add("bg-transparent");
+          navbar.classList.remove("bg-white", "nav-scrolled");
+        }
+      };
+    </script>
   </body>
 </html>

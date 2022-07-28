@@ -47,7 +47,7 @@ function Footer() {
           </div>
           <div class="col-12 col-md-2 badges">
             <p>Get the App</p>
-            <div class="badges-items me-3 d-none d-sm-block">
+            <div class="badges-items me-3 d-block">
               <a class="badge-item text-decoration-none" href="#1">
                 <img
                   class="item"
