@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-}
+/*** 
+
+====================================================================
+Global Settings
+====================================================================
+
+***/
 :root {
   --primary-50: #f5f3ff;
   --primary-100: #ede9fe;
@@ -59,6 +60,7 @@
 }
 @media (max-width: 576px) {
   :root {
+    /* font style  */
     --fs-displayXL: 36px;
     --fs-displayLG: 30px;
     --fs-bodyLG: 16px;
@@ -69,6 +71,19 @@
     -lh-bodymd: 20px;
   }
 }
+/*** 
+
+====================================================================
+App Default Style
+====================================================================
+
+***/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
 body {
   overflow-x: hidden;
 }
@@ -76,20 +91,25 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-/* Buttons  */
 a:hover,
 a:focus,
 a:visited {
   text-decoration: none;
   outline: none;
 }
+/*** 
+
+====================================================================
+Button style's
+====================================================================
+
+***/
 button,
 .button {
   text-align: center;
   white-space: nowrap;
   font-size: 15px;
   line-height: 20px;
-  font-weight: 400;
   z-index: 1;
   border-radius: 8px;
   padding: 18px 35px 15px 35px;
@@ -123,7 +143,13 @@ button,
   color: var(--primary-100);
   background-color: var(--primary-600);
 }
-/* Color  */
+/*** 
+
+====================================================================
+Font Colour
+====================================================================
+
+***/
 .nav-item a,
 .text-body p,
 .text-body h2,
@@ -148,7 +174,13 @@ button,
 #Pricing .inner-box .title {
   color: var(--primary-900);
 }
-/* background colour  */
+/*** 
+
+====================================================================
+Background Colour
+====================================================================
+
+***/
 .bg-primary-300 {
   background-color: var(--primary-100);
 }
@@ -161,14 +193,34 @@ button,
 .bg-neutral-50 {
   background-color: var(--neutral-50);
 }
-/* Typography - fontWeight  */
-.fw-light {
+/*** 
+
+====================================================================
+Typography - fontWeight
+====================================================================
+
+***/
+button,
+.button,
+.fw-light,
+.pricing-table .duration,
+.pricing-table .duration,
+.pricing-table .table-content ul li {
   font-weight: 400;
 }
-.fw-normal {
+#Footer a,
+.pricing-table .title,
+.pricing-table .price,
+.pricing-table .table-footer a {
   font-weight: 500;
 }
-/* Typography - fontSize/lineHeight/letterSpacing  */
+/*** 
+
+====================================================================
+Typography - fontSize/lineHeight/letterSpacing
+====================================================================
+
+***/
 #Herosection h1,
 h1 {
   font-size: var(--fs-displayXL);
@@ -215,14 +267,14 @@ h2 {
   font-size: var(--fs-bodySM);
   line-height: var(--lh-bodySM);
 }
-.nav-item a {
-  font-weight: 600;
-}
-.BrandLogo,
-.badge-item .item {
-  height: 35px;
-}
-/* Theme style  */
+
+/*** 
+
+====================================================================
+Theme Style
+====================================================================
+
+***/
 #Features .container,
 #Pricing .container,
 .section .container,
@@ -231,13 +283,19 @@ h2 {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-#Features .container-header h1,
-#Features .container-header p,
-#Pricing .container-header h1,
-#Pricing .container-header p {
+#Features .text-body h1,
+#Features .text-body p,
+#Pricing .text-body h1,
+#Pricing .text-body p {
   max-width: 800px;
 }
-/* Navbar  */
+/*** 
+
+====================================================================
+Navbar Section
+====================================================================
+
+***/
 #Navbar {
   top: 0;
   right: 0;
@@ -248,7 +306,20 @@ h2 {
   box-shadow: 0px 4px 8px -2px rgba(17, 24, 39, 0.1),
     0px 2px 4px -2px rgba(17, 24, 39, 0.06);
 }
-/* Herosectin */
+.nav-item a {
+  font-weight: 600;
+}
+.BrandLogo,
+.badge-item .item {
+  height: 35px;
+}
+/*** 
+
+====================================================================
+Hero Section
+====================================================================
+
+***/
 #Herosection .text-wrapper {
   padding-top: 40px;
 }
@@ -327,11 +398,23 @@ h2 {
   right: -24px;
   top: calc(548.49px + var(--band-right-offset));
 }
-/* Logo Cloud */
+/*** 
+
+====================================================================
+LogoCloud Section
+====================================================================
+
+***/
 .ClientLogo img {
   max-height: 26px;
 }
-/* Pricing table  */
+/*** 
+
+====================================================================
+Pricing Table Section
+====================================================================
+
+***/
 .pricing-table {
   margin-bottom: 30px;
 }
@@ -373,14 +456,12 @@ h2 {
 }
 .pricing-table .title {
   display: block;
-  font-weight: 500;
   margin-bottom: 10px;
 }
 .pricing-table .price {
   position: relative;
   display: flex;
   align-items: flex-end;
-  font-weight: 500;
   margin-bottom: 50px;
   transition: all 300ms ease;
 }
@@ -388,7 +469,6 @@ h2 {
   position: relative;
   font-size: 18px;
   line-height: 1em;
-  font-weight: 400;
   bottom: 7px;
   margin-left: 7px;
 }
@@ -401,7 +481,6 @@ h2 {
 }
 .pricing-table .table-content ul li {
   position: relative;
-  font-weight: 400;
   margin-bottom: 20px;
   padding-left: 30px;
   list-style: none;
@@ -419,15 +498,19 @@ h2 {
   position: relative;
   display: block;
   width: 100%;
-  font-weight: 500;
 }
 .pricing-table .table-footer a {
   position: relative;
   display: block;
   width: 100%;
 }
+/*** 
 
-/* Testimonial  */
+====================================================================
+Testimonial Section
+====================================================================
+
+***/
 #Testimonial .testimonial-item {
   height: fit-content;
   padding: 32px 24px;
@@ -452,7 +535,13 @@ h2 {
   top: -60px;
   left: -48px;
 }
-/* FAQ  */
+/*** 
+
+====================================================================
+FAQ Section
+====================================================================
+
+***/
 .accordion-button:not(.collapsed) {
   color: var(--primary-600);
   background-color: var(--primary-100);
@@ -461,19 +550,30 @@ h2 {
   border-color: var(--primary-600);
   box-shadow: 0 0 0 0.25rem var(--primary-300);
 }
-/* footer */
+/*** 
+
+====================================================================
+Footer Section
+====================================================================
+
+***/
 #Footer {
   background-color: var(--black);
 }
 #Footer a {
   color: var(--white);
   padding-left: 0px;
-  font-weight: 500;
 }
 #Footer a:hover {
   color: var(--secondary-300);
 }
-/* Arrow back to top  */
+/*** 
+
+====================================================================
+ArrowToTop Section
+====================================================================
+
+***/
 .arrow-back-to {
   font-size: 1.2rem;
   position: fixed;
