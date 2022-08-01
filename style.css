@@ -275,6 +275,7 @@ Theme Style
 ====================================================================
 
 ***/
+#Herosection,
 #Features .container,
 #Pricing .container,
 .section .container,
@@ -297,6 +298,7 @@ Navbar Section
 
 ***/
 #Navbar {
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -346,25 +348,21 @@ Hero Section
   top: 0;
   left: 0;
   right: 0;
+  bottom: 0;
   z-index: -1;
 }
-@media (max-width: 1115px) {
-  .hero-bg {
-    --band-right-offset: 30px;
-  }
-}
-@media (max-width: 992px) {
-  .hero-bg {
-    --band-right-offset: 48px;
-  }
-}
-@media (max-width: 576px) {
-  .hero-bg {
-    --band-right-offset: 48px;
-  }
-}
 .hero-bg .bg {
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  background: rgba(242, 247, 255, 0.7);
   backdrop-filter: blur(100px);
+}
+@media (min-width: 1200px) {
+  .hero-bg .bg {
+    width: 100%;
+  }
 }
 .hero-bg .purple-circle {
   position: absolute;
@@ -378,26 +376,15 @@ Hero Section
   position: absolute;
   z-index: 1;
 }
-.hero-bg .left-band1 {
-  left: 0px;
-  top: calc(635.5px + var(--band-left-offset));
-}
-.hero-bg .left-band2 {
+.hero-bg .left-bands {
+  bottom: 4%;
   left: -152px;
-  top: calc(738.49px + var(--band-left-offset));
 }
-.hero-bg .right-band1 {
-  right: 32px;
-  top: calc(460px + var(--band-right-offset));
+.hero-bg .right-bands {
+  bottom: 33%;
+  right: -239px;
 }
-.hero-bg .right-band2 {
-  right: 0px;
-  top: calc(518px + var(--band-right-offset));
-}
-.hero-bg .right-band3 {
-  right: -24px;
-  top: calc(548.49px + var(--band-right-offset));
-}
+
 /*** 
 
 ====================================================================

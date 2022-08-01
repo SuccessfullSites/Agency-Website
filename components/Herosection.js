@@ -32,12 +32,9 @@ function Herosection() {
         
   `;
   BG.innerHTML = `
-        <img class="band left-band1" src="./Images/Left Band 1.svg"></img>
-        <img class="band left-band2" src="./Images/Left Band 2.svg"></img>
-        <img class="band right-band1" src="./Images/Right Band 1.svg"></img>
-        <img class="band right-band2" src="./Images/Right Band 2.svg"></img>
-        <img class="band right-band3" src="./Images/Right Band 3.svg"></img>
-        <img class="bg" src="./Images/hero-bg.svg" alt="" srcset="" />
+        <img class="band left-bands" src="./Images/left-bands.svg"></img>
+        <img class="band right-bands" src="./Images/right-bands.svg"></img>
+       <div class="bg"></div>
         <img class="purple-circle" src="./Images/Purple Circle.svg"></img>
   `;
   Herosection.appendChild(Container);
