@@ -76,19 +76,19 @@ function Navbar() {
   <div class="offcanvas-body">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#Features">Features</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="#Pricing">Pricing</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Careers</a>
+        <a class="nav-link" href="#Careers">Careers</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Help</a>
+        <a class="nav-link" href="#FAQ">Help</a>
       </li>
     </ul>
-    <div class="badges-items h-100 me-3 d-flex flex-column">
+    <div class="badges-items h-100 mt-3 d-flex flex-column">
       <a class="badge-item text-decoration-none" href="#1">
         <img
           class="item"
