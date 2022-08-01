@@ -84,9 +84,6 @@ App Default Style
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
-body {
-  overflow-x: hidden;
-}
 a {
   text-decoration: none;
   cursor: pointer;
@@ -293,6 +290,17 @@ Theme Style
 /*** 
 
 ====================================================================
+App
+====================================================================
+
+***/
+.app {
+  min-height: fit-content;
+  overflow-x: hidden;
+}
+/*** 
+
+====================================================================
 Navbar Section
 ====================================================================
 
@@ -300,9 +308,10 @@ Navbar Section
 #Navbar {
   position: fixed;
   top: 0;
-  right: 0;
   left: 0;
   z-index: 20;
+  width: 100%;
+  overflow: hidden;
 }
 .nav-scrolled {
   box-shadow: 0px 4px 8px -2px rgba(17, 24, 39, 0.1),
@@ -310,6 +319,9 @@ Navbar Section
 }
 .nav-item a {
   font-weight: 600;
+}
+.nav-right {
+  width: fit-content;
 }
 .BrandLogo,
 .badge-item .item {
@@ -572,4 +584,5 @@ ArrowToTop Section
   filter: drop-shadow(0px 4px 4px rgba(19, 56, 77, 0.03));
   cursor: pointer;
   transition: all 0.5s ease;
+  z-index: 20;
 }

@@ -28,7 +28,7 @@ function Navbar() {
   </ul>
 </div>
 <div class="nav-right d-flex align-items-center">
-  <div class="badges-items me-3 d-none d-sm-block">
+  <div class="badges-items me- d-none d-sm-block">
     <a class="badge-item text-decoration-none" href="#1">
       <img
         class="item"
