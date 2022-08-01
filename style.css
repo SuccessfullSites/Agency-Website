@@ -567,7 +567,7 @@ ArrowToTop Section
   width: 42px;
   height: 42px;
   right: 40px;
-  top: 608px;
+  bottom: 80px;
   mix-blend-mode: normal;
   filter: drop-shadow(0px 4px 4px rgba(19, 56, 77, 0.03));
   cursor: pointer;
